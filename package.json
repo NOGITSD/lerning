@@ -4,14 +4,16 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "d": "vite",
+    "dev": "vite",
     "create": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
-    
+    "preview": "vite preview",
+    "pre": "npm run create",
+    "de": "gh-pages -d dist"
   },
   "dependencies": {
     "@monaco-editor/react": "^4.7.0",
+    "gh-pages": "^6.3.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-icons": "^5.6.0",
